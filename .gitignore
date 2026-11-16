@@ -1,0 +1,7 @@
+output/
+.cache/
+voices/*.onnx
+voices/*.onnx.json
+__pycache__/
+*.pyc
+venv/

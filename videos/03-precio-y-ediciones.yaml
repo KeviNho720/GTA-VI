@@ -1,0 +1,150 @@
+id: "03"
+slug: precio-y-ediciones
+theme: dusk
+music: sunrise
+tag: "Precio y ediciones"
+meta:
+  title: "PRECIO de GTA 6: ¿Estándar o Ultimate? Qué incluye cada edición (y la física SIN disco)"
+  alt_titles:
+    - "GTA 6 cuesta 79,99 €: ¿merece la pena la Ultimate Edition?"
+    - "GTA 6 Ultimate vs Estándar: no compres sin ver esto"
+  publish: "Martes 17 de noviembre, 20:00 (hora peninsular)."
+  description: |
+    ¿Cuánto cuesta GTA 6 y qué edición comprar? La edición Estándar cuesta 79,99 € y la Ultimate Edition 99,99 € (solo digital). Te explicamos qué incluye cada una, los bonus de reserva (Vintage Vice City Pack y un mes de GTA+), por qué la edición física no trae disco y cómo pasar de Estándar a Ultimate más tarde.
+
+    Precios de las tiendas digitales en la zona euro y EE. UU.; pueden variar según tienda y país. Datos a 16 de noviembre de 2026.
+
+    📌 Fuentes: Rockstar Games (tienda y soporte oficial), PlayStation Store, Microsoft Store.
+  tags: [gta 6 precio, cuanto cuesta gta 6, gta 6 ediciones, gta 6 ultimate edition, gta 6 edicion estandar, gta 6 edicion fisica, gta 6 sin disco, gta 6 reserva, gta 6 bonus reserva, vintage vice city pack, gta+, gta 6 merece la pena ultimate, gta vi precio, "gta 6 79,99 euros"]
+  pinned_comment: |
+    ¿Tú cuál has pillado, Estándar o Ultimate? 👇
+    Precios de tienda digital a 16/11/2026: pueden cambiar según tienda y país.
+thumb:
+  top: "¿ESTÁNDAR O"
+  main: "ULTIMATE?"
+  sub: "PRECIO Y EDICIONES DE GTA 6"
+  badge: "79,99 €"
+  icon: badge-euro
+  bg: scenery
+  theme: dusk
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Antes de comprar"
+    title: "Precio de GTA 6: ¿Estándar o Ultimate?"
+    subtitle: "Qué incluye cada edición, bonus de reserva y la edición física sin disco"
+    note: "Precios de tiendas digitales a 16 de noviembre de 2026"
+    lines:
+      - "79,99 €. Ese es el precio de partida de GTA 6."
+      - "Pero hay otra edición, bonus de reserva, una mejora de pago y una edición física que no trae disco. Vamos por partes."
+
+  - type: stat
+    chapter: "Los precios"
+    kicker: "Edición Estándar"
+    icon: tag
+    value: "79,99 €"
+    label: "Precio en tiendas digitales"
+    sub: "En Estados Unidos: 79,99 $"
+    source: "PlayStation Store / Microsoft Store"
+    lines:
+      - "La edición Estándar cuesta 79,99 € en las tiendas digitales."
+      - "En Estados Unidos, 79,99 $."
+
+  - type: stat
+    kicker: "Ultimate Edition"
+    icon: crown
+    value: "99,99 €"
+    label: "Solo en formato digital"
+    sub: "En Estados Unidos: 99,99 $"
+    color: "#FF2E88"
+    source: "PlayStation Store / Microsoft Store"
+    lines:
+      - "La Ultimate Edition sube a 99,99 €."
+      - "Y solo se vende en formato digital."
+
+  - type: compare
+    chapter: "Qué incluye cada edición"
+    heading: "¿Qué te llevas?"
+    source: "Rockstar Games"
+    columns:
+      - title: "Estándar"
+        value: "79,99 €"
+        at: 1
+        items:
+          - {text: "El juego completo"}
+          - {text: "Bonus de reserva digital"}
+          - {text: "Extras de la Ultimate", mark: x}
+      - title: "Ultimate"
+        value: "99,99 €"
+        badge: "Solo digital"
+        highlight: true
+        at: 2
+        items:
+          - {text: "El juego completo"}
+          - {text: "'95 Grotti Cheetah y más vehículos"}
+          - {text: "Revólveres Hawk & Little Morgan y armas personalizadas"}
+          - {text: "Estilos Vice City, negocios y extras"}
+          - {text: "Se desbloquea capítulo a capítulo", mark: dot}
+    lines:
+      - "¿Qué te llevas por esos veinte euros de diferencia?"
+      - "La Estándar es el juego completo, sin más."
+      - "La Ultimate añade una colección de vehículos, armas, ropa, negocios y otros extras, entre ellos un deportivo clásico de los noventa y un par de revólveres exclusivos."
+      - "Eso sí: no lo recibes todo de golpe. Según Rockstar, el contenido se va desbloqueando capítulo a capítulo, a medida que avanzas en la historia de Jason y Lucia."
+
+  - type: bullets
+    chapter: "Bonus de reserva"
+    heading: "Bonus de compra digital"
+    kicker: "Antes del 20 de noviembre"
+    source: "Rockstar Games"
+    items:
+      - {icon: gift, text: "Vintage Vice City Pack"}
+      - {icon: car, text: "Un coche clásico, ropa y peinados retro"}
+      - {icon: sparkles, text: "Un diseño de arma inspirado en Tommy Vercetti"}
+      - {icon: crown, text: "Un mes de GTA+"}
+    lines:
+      - "Luego están los bonus."
+      - "Las compras digitales hechas antes del 20 de noviembre incluyen el Vintage Vice City Pack."
+      - "Trae un coche clásico, ropa y peinados retro..."
+      - "...y un diseño de arma inspirado en Tommy Vercetti, el protagonista de Vice City."
+      - "Además, suman un mes de suscripción a GTA+."
+
+  - type: verdict
+    chapter: "La edición física"
+    kicker: "Edición física"
+    question: "¿La edición física de GTA 6 trae disco?"
+    verdict: "No"
+    note: "La caja contiene un código para descargar el juego."
+    lines:
+      - "Y ahora, la gran polémica."
+      - "La edición física no trae disco."
+      - "Rockstar confirmó que la caja contiene un código para descargar el juego. Vas a necesitar espacio y conexión, igual que en digital."
+
+  - type: bullets
+    chapter: "Pasar de Estándar a Ultimate"
+    heading: "¿Ya tienes la Estándar?"
+    source: "Rockstar Games / Microsoft Store"
+    items:
+      - {icon: circle-arrow-up, text: "Puedes pasar a Ultimate con una mejora digital"}
+      - {icon: tag, text: "En la Xbox Store de EE. UU. cuesta 20 $"}
+      - {icon: info, text: "El precio puede variar según país y tienda"}
+    lines:
+      - "¿Y si ya tienes la Estándar?"
+      - "Rockstar permite pasar a la Ultimate con una mejora digital."
+      - "En la tienda de Xbox de Estados Unidos aparece a 20 $."
+      - "El precio puede variar según tu país y tu tienda, así que compruébalo antes."
+
+  - type: statement
+    chapter: "¿Cuál comprar?"
+    text: "Si dudas, *empieza por la Estándar*"
+    lines:
+      - "Entonces, ¿cuál compro?"
+      - "Mi consejo: si dudas, empieza por la Estándar. Como la mejora se puede comprar después, no pierdes nada por esperar a ver si el juego te engancha."
+      - "Y si sabes que vas a exprimir Leonida durante meses, la Ultimate te da todos esos extras sin pasar por caja dos veces."
+
+  - type: outro
+    chapter: "Final"
+    next: "PS5, PS5 Pro o Xbox: ¿dónde se ve mejor GTA 6?"
+    lines:
+      - "Y ya sabes cuánto cuesta cada edición y qué trae."
+      - "Suscríbete y activa la campana para no perderte nada del lanzamiento."
+      - "Nos vemos en Leonida."

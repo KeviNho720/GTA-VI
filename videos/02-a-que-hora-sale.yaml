@@ -1,0 +1,141 @@
+id: "02"
+slug: a-que-hora-sale
+theme: night
+music: drive
+tag: "Hora de lanzamiento"
+meta:
+  title: "¿A QUÉ HORA SALE GTA 6? Horario por país (España, México, Argentina…) + precarga"
+  alt_titles:
+    - "GTA 6: hora EXACTA de lanzamiento en tu país (oficial)"
+    - "¿Cuándo puedo jugar a GTA 6? Hora de desbloqueo y precarga explicadas"
+  publish: "Martes 17 de noviembre, 18:00 (hora peninsular). Es la búsqueda que más sube en las 48 horas previas."
+  description: |
+    ¿A qué hora sale GTA 6? Rockstar lo ha confirmado: Grand Theft Auto VI se desbloquea a medianoche, hora local, el jueves 19 de noviembre de 2026, en todas las regiones y tanto en PS5 como en Xbox Series X|S.
+
+    En este vídeo: el horario oficial, cómo queda en España y Latinoamérica, quién juega primero en el mundo, cómo funciona la precarga, cuánto ocupa (hasta 212 GB) y la checklist para la noche del miércoles.
+
+    📌 Fuente: soporte oficial de Rockstar Games («regional pre-load and release times»). Datos a 16 de noviembre de 2026. Comprueba siempre la cuenta atrás en la ficha del juego de tu tienda.
+  tags: [a que hora sale gta 6, gta 6 hora, gta 6 hora de lanzamiento, gta 6 horario, gta 6 españa hora, gta 6 mexico hora, gta 6 argentina hora, gta 6 precarga, gta 6 cuanto ocupa, gta 6 19 de noviembre, gta 6 desbloqueo, gta 6 ps5, gta 6 xbox, gta vi]
+  pinned_comment: |
+    ¿Desde qué país lo vas a jugar y a qué hora te desbloquea? 👇
+    Recuerda: la referencia buena es la cuenta atrás de la ficha del juego en tu consola.
+thumb:
+  top: "¿A QUÉ HORA"
+  main: "SALE?"
+  sub: "HORARIO POR PAÍS + PRECARGA"
+  badge: "00:00"
+  icon: clock
+  bg: scenery
+  theme: night
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Lanzamiento · jueves 19 de noviembre"
+    title: "¿A qué hora sale GTA 6?"
+    subtitle: "Horario oficial por país, precarga y lo que tienes que hacer antes"
+    note: "Datos a 16 de noviembre de 2026 · fuente: Rockstar Games"
+    lines:
+      - "GTA 6 sale este jueves, 19 de noviembre, y la pregunta del millón es a qué hora puedes empezar a jugar."
+      - "Aquí tienes la respuesta oficial, el horario de tu país y cómo dejarlo todo listo para jugar desde el primer minuto."
+
+  - type: quote
+    chapter: "La hora oficial"
+    text: "Grand Theft Auto VI se lanzará a medianoche, hora local, el 19 de noviembre de 2026 en todas las regiones, tanto en PlayStation 5 como en Xbox Series X|S."
+    source: "Soporte de Rockstar Games (traducción)"
+    lines:
+      - "Empecemos por lo oficial. Rockstar lo explica en su página de soporte."
+      - "El juego se lanza a medianoche, hora local, el 19 de noviembre, en todas las regiones y en las dos consolas."
+
+  - type: statement
+    text: "Medianoche *en tu zona horaria*"
+    lines:
+      - "Es decir, no hay una hora mundial única: el juego se va desbloqueando a medida que llega la medianoche a cada zona del planeta."
+
+  - type: table
+    chapter: "Horario por país"
+    heading: "Cuándo podrás jugar"
+    kicker: "Hora local"
+    highlight: 0
+    footer: "Referencia final: la cuenta atrás de la ficha del juego en tu tienda."
+    rows:
+      - {label: "España (península y Baleares)", value: "Jue 19 · 00:00", icon: clock, at: 0}
+      - {label: "México (centro)", value: "Jue 19 · 00:00", icon: clock, at: 1}
+      - {label: "Colombia · Perú · Ecuador", value: "Jue 19 · 00:00", icon: clock, at: 1, delay: 0.3}
+      - {label: "Chile · Argentina · Uruguay", value: "Jue 19 · 00:00", icon: clock, at: 1, delay: 0.6}
+      - {label: "Estados Unidos", value: "Jue 19 · 00:00 (Este)", icon: clock, at: 2}
+      - {label: "Nueva Zelanda (las primeras)", value: "Mié 18 · 12:00 en España", icon: globe, at: 3}
+    lines:
+      - "Traducido a la práctica: en la España peninsular podrás jugar a las doce en punto de la noche del miércoles al jueves."
+      - "En México, Colombia, Perú, Chile, Argentina y el resto de Latinoamérica, también a la medianoche del jueves en tu hora local."
+      - "En Estados Unidos, la prensa americana apunta a que se desbloqueará para todo el país a la medianoche de la costa este."
+      - "Y los primeros del planeta serán los jugadores de Nueva Zelanda: allí la medianoche llega cuando en España es mediodía del miércoles."
+      - "Un consejo: si la ficha del juego en tu consola muestra una cuenta atrás, esa es la referencia que manda."
+
+  - type: chapter
+    chapter: "La precarga"
+    number: "02"
+    title: "La precarga"
+    lines: ["Segunda clave: la precarga."]
+
+  - type: bullets
+    heading: "Cómo funciona la precarga"
+    source: "Rockstar Games"
+    items:
+      - {icon: download, text: "Abierta desde el 10 de noviembre para quien haya reservado"}
+      - {icon: gamepad-2, text: "PS5: empezó a medianoche, hora local"}
+      - {icon: globe, text: "Xbox: empezó a la vez en todo el mundo (00:00 GMT)"}
+      - {icon: package, text: "Física: canjea el código de la caja y precarga"}
+    lines:
+      - "Si ya has reservado el juego, puedes descargarlo desde el 10 de noviembre."
+      - "En PS5, la precarga se activó a medianoche, hora local."
+      - {text: "En Xbox, se abrió a la vez en todo el mundo, a medianoche hora de Greenwich.", say: "En Ecsbox, se abrió a la vez en todo el mundo, a medianoche hora de Grínich."}
+      - "Y si compras la edición física, recuerda que la caja trae un código, no un disco: canjéalo y podrás precargar igual."
+    first: 0
+
+  - type: stat
+    kicker: "Espacio"
+    icon: hard-drive
+    value: "212 GB"
+    label: "Necesarios como máximo"
+    sub: "Libera espacio antes del miércoles por la noche"
+    source: "Rockstar Games"
+    lines:
+      - "Ahora, el dato que más va a doler: la precarga necesita hasta 212 GB, según la consola."
+      - "Si tu almacenamiento va justo, haz limpieza antes del miércoles por la noche."
+
+  - type: verdict
+    chapter: "¿Necesito PS Plus o Game Pass?"
+    kicker: "Suscripciones"
+    question: "¿Necesitas PS Plus o Game Pass para jugar a GTA 6?"
+    verdict: "No"
+    note: "Esas suscripciones son para el multijugador online, que no está anunciado."
+    lines:
+      - "Otra duda muy repetida: ¿necesitas PS Plus o Game Pass para jugar?"
+      - "Para la historia, la respuesta es no."
+      - "Esas suscripciones se piden para el multijugador online, y GTA 6 no tiene ningún modo online anunciado. La excepción es jugar en la nube desde Xbox One, que tiene sus propios requisitos."
+
+  - type: checklist
+    chapter: "Checklist para el miércoles"
+    heading: "La noche del miércoles"
+    kicker: "Checklist"
+    items:
+      - "Comprueba que la precarga está al 100 %"
+      - "Deja la consola en reposo con descargas activas"
+      - "Actualiza la consola y el juego"
+      - "Silencia palabras clave en redes para evitar spoilers"
+      - "Mira la cuenta atrás en la ficha del juego"
+    lines:
+      - "Y para que no se te escape nada, esta es la lista de la noche del miércoles."
+      - "Uno: confirma que la precarga está completa."
+      - "Dos: deja la consola en reposo con las descargas activadas, por si llega una actualización de última hora."
+      - "Tres: comprueba que tanto la consola como el juego están actualizados."
+      - "Cuatro: silencia palabras clave en redes sociales si no quieres comerte un spoiler."
+      - "Y cinco: mira la cuenta atrás en la ficha del juego. Es la referencia más fiable para tu región."
+
+  - type: outro
+    chapter: "Final"
+    next: "Precio y ediciones de GTA 6: ¿Estándar o Ultimate?"
+    lines:
+      - "Resumiendo: medianoche, hora local, el 19 de noviembre."
+      - "Si te ha servido, suscríbete y activa la campana: el día del lanzamiento subimos guías del mapa, de los personajes y de todo lo que hay que saber."
+      - "Nos vemos en Leonida."

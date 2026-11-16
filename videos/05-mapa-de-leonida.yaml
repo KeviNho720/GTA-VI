@@ -1,0 +1,92 @@
+id: "05"
+slug: mapa-de-leonida
+theme: miami
+music: ocean
+tag: "Guía del mapa"
+meta:
+  title: "El MAPA de GTA 6 explicado: las 6 regiones de Leonida (Vice City y más)"
+  alt_titles:
+    - "Mapa de GTA 6: qué hay en cada zona de Leonida"
+    - "Leonida, la Florida de GTA 6: las 6 zonas confirmadas"
+  publish: "Jueves 19 de noviembre, 10:00 (hora peninsular), día de lanzamiento."
+  description: |
+    El mapa de GTA 6 es todo un estado: Leonida, la versión de Rockstar de Florida. Te explicamos las 6 zonas que Rockstar ha presentado oficialmente: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga National Park. Qué sabemos de cada una, en qué se inspiran y la historia de Vice City en la saga.
+
+    El mapa que aparece en el vídeo es una ilustración aproximada creada por el canal, no el mapa oficial. Datos a 16 de noviembre de 2026.
+
+    📌 Fuente: web oficial de Grand Theft Auto VI (Rockstar Games).
+  tags: [gta 6 mapa, mapa gta 6, leonida, gta 6 leonida, vice city, gta 6 vice city, leonida keys, grassrivers, port gellhorn, ambrosia gta 6, mount kalaga, gta 6 regiones, gta 6 florida, gta 6 tamaño mapa, gta vi map]
+  pinned_comment: |
+    ¿Qué zona vas a explorar primero? 👇 Vice City, los Cayos, los pantanos de Grassrivers…
+thumb:
+  top: "EL MAPA DE"
+  main: "LEONIDA"
+  sub: "LAS 6 REGIONES DE GTA 6"
+  badge: "6 ZONAS"
+  icon: map
+  bg: ocean
+  theme: miami
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Guía del mapa"
+    title: "El mapa de GTA 6: Leonida"
+    subtitle: "Las 6 regiones confirmadas, qué hay en cada una y en qué se inspiran"
+    note: "Datos oficiales de Rockstar Games · 16 de noviembre de 2026"
+    lines:
+      - "Vice City es solo el principio."
+      - "GTA 6 transcurre en todo un estado, Leonida, y Rockstar ya ha presentado seis zonas. Te cuento qué sabemos de cada una."
+
+  - type: statement
+    chapter: "Qué es Leonida"
+    text: "Leonida: la *Florida* de Rockstar"
+    lines:
+      - "Leonida es la versión de Rockstar de Florida: sol, pantanos, cayos, playas y muchísima locura de telediario."
+
+  - type: map
+    chapter: "Las 6 regiones"
+    regions:
+      - {name: "Vice City", pos: [838, 712], icon: building-2, tag: "La gran ciudad", text: "Rascacielos, playas, fiestas y vida nocturna. Inspirada en Miami, es la ciudad que más protagonismo ha tenido en los tráileres.", label_off: [24, 8]}
+      - {name: "Leonida Keys", pos: [700, 930], icon: sailboat, tag: "Islas del sur", text: "Una cadena de islas al sur, inspirada en los Cayos de Florida. Es el territorio de Jason y de Brian Heder.", label_off: [26, 36]}
+      - {name: "Grassrivers", pos: [705, 760], label_off: [-24, 10], label_align: right, icon: trees, tag: "Humedales", text: "Pantanos, humedales y caimanes, al estilo de los Everglades."}
+      - {name: "Port Gellhorn", pos: [300, 232], label_off: [0, 44], label_align: center, icon: anchor, tag: "Costa", text: "Un pueblo costero que vivió tiempos mejores. Un ambiente más decadente y apartado."}
+      - {name: "Ambrosia", pos: [660, 470], icon: factory, tag: "Interior", text: "Una zona del interior que gira alrededor de la industria del azúcar."}
+      - {name: "Mount Kalaga", pos: [590, 190], icon: mountain, tag: "Parque nacional", text: "Naturaleza salvaje al norte del estado: montaña, bosques y senderos.", label_off: [0, -26], label_align: center}
+    lines:
+      - "Este es un esquema aproximado, no el mapa oficial, para que te ubiques."
+      - "Vice City es la gran ciudad del sureste, inspirada en Miami: rascacielos, playas, fiestas y vida nocturna. Es la que más protagonismo ha tenido en los tráileres."
+      - "Leonida Keys es la cadena de islas del sur, inspirada en los Cayos de Florida. Según sus fichas oficiales, es el territorio de Jason y de Brian Heder."
+      - "Grassrivers son los humedales, al estilo de los Everglades: pantanos, barcas con hélice y fauna salvaje."
+      - "Port Gellhorn es un pueblo costero que vivió tiempos mejores, con un ambiente mucho más decadente."
+      - "Ambrosia, en el interior, gira alrededor de la industria del azúcar."
+      - "Y Mount Kalaga es un parque nacional al norte: naturaleza salvaje, montaña y bosques."
+
+  - type: statement
+    chapter: "¿Cuánto mide el mapa?"
+    text: "¿Más grande que *GTA V*?"
+    lines:
+      - "¿Y el tamaño? Rockstar no ha dado una cifra oficial."
+      - "Las estimaciones de la comunidad, basadas en los tráileres y en las filtraciones de 2022, apuntan a un mapa bastante mayor que el de GTA 5. Pero hasta que no lo pisemos, son solo eso: estimaciones."
+
+  - type: timeline
+    chapter: "Vice City en la saga"
+    heading: "Vice City en la saga"
+    events:
+      - {date: "1997", text: "Aparece en el primer Grand Theft Auto"}
+      - {date: "2002", text: "GTA Vice City, ambientado en 1986"}
+      - {date: "2006", text: "Vice City Stories vuelve a los 80"}
+      - {date: "2026", text: "GTA VI: Vice City en la actualidad"}
+    lines:
+      - "Por cierto, Vice City tiene mucha historia en la saga."
+      - "Apareció por primera vez en el primer GTA, en 1997."
+      - "En 2002 llegó GTA Vice City, ambientado en los ochenta y protagonizado por Tommy Vercetti."
+      - "En 2006, Vice City Stories volvió a la ciudad, también en los ochenta."
+      - "Y ahora, veinte años después, Vice City regresa en la actualidad y más grande que nunca."
+
+  - type: outro
+    chapter: "Final"
+    next: "Personajes de GTA 6: quién es quién"
+    lines:
+      - "Esto es Leonida, a falta de recorrerla con nuestras propias manos."
+      - "Suscríbete y activa la campana: en cuanto exploremos el mapa a fondo, lo contamos aquí."
+      - "Nos vemos en Leonida."

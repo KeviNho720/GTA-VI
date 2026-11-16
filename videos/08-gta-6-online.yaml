@@ -1,0 +1,100 @@
+id: "08"
+slug: gta-6-online
+theme: night
+music: neon
+tag: "GTA 6 Online"
+meta:
+  title: "¿Tiene GTA 6 modo ONLINE? Lo que se sabe del multijugador"
+  alt_titles:
+    - "GTA 6 Online: ¿cuándo sale? Esto es lo confirmado"
+    - "¿Hay GTA 6 Online el día 1? La respuesta corta y la larga"
+  publish: "Jueves 19 de noviembre, 20:00 (hora peninsular), día de lanzamiento."
+  description: |
+    ¿Hay GTA 6 Online? A 16 de noviembre de 2026, Rockstar no ha anunciado ningún modo multijugador para GTA 6 ni fecha para él. Te contamos lo confirmado, qué pasó con GTA V y GTA Online en 2013, qué rumores circulan sobre 2027 y por qué debes desconfiar de cualquier «acceso anticipado».
+  tags: [gta 6 online, gta 6 multijugador, gta 6 online fecha, cuando sale gta 6 online, gta 6 online 2027, gta online 2, gta 6 modo online, gta vi online, gta 6 jugar con amigos, gta 6 cooperativo]
+  pinned_comment: |
+    ¿Con quién vas a jugar cuando llegue el online? 👇 Etiqueta a tu equipo.
+thumb:
+  top: "¿HAY GTA 6"
+  main: "ONLINE?"
+  sub: "LO QUE SE SABE DEL MULTIJUGADOR"
+  badge: "¿2027?"
+  icon: wifi
+  bg: scenery
+  theme: night
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Multijugador"
+    title: "¿Tiene GTA 6 modo online?"
+    subtitle: "Lo confirmado, lo que se rumorea y qué pasó con GTA V"
+    note: "Datos a 16 de noviembre de 2026"
+    lines:
+      - "Es la pregunta que se repite en cada comentario: ¿habrá GTA 6 Online desde el primer día?"
+      - "Respuesta corta: no hay nada anunciado. La respuesta larga, en este vídeo."
+
+  - type: verdict
+    chapter: "Lo confirmado"
+    kicker: "Online"
+    question: "¿Hay un modo online anunciado para el lanzamiento?"
+    verdict: "Sin anunciar"
+    color: "#FFD23F"
+    note: "Lo que llega el 19 de noviembre es la historia de Jason y Lucia."
+    lines:
+      - "¿Hay un modo online anunciado para el lanzamiento?"
+      - "De momento, está sin anunciar."
+      - "Rockstar no ha confirmado ningún modo multijugador para GTA 6, ni fecha para él. Lo que llega el 19 de noviembre es la historia de Jason y Lucia."
+
+  - type: timeline
+    chapter: "El precedente de GTA V"
+    heading: "El precedente"
+    kicker: "GTA V y GTA Online"
+    events:
+      - {date: "17 sep 2013", text: "Sale GTA V"}
+      - {date: "1 oct 2013", text: "Llega GTA Online, dos semanas después"}
+      - {date: "2013 – hoy", text: "Más de una década de actualizaciones"}
+    lines:
+      - "Para hacernos una idea, miremos el precedente."
+      - "GTA 5 salió el 17 de septiembre de 2013."
+      - "Y GTA Online llegó dos semanas después, el 1 de octubre."
+      - "Desde entonces se ha actualizado durante más de una década, y se ha convertido en una de las grandes minas de oro de Rockstar."
+
+  - type: bullets
+    chapter: "Rumores"
+    heading: "Lo que se dice"
+    kicker: "Sin confirmar"
+    items:
+      - {icon: newspaper, text: "Informes que lo sitúan en 2027", color: "#FF8A3D"}
+      - {icon: circle-help, text: "Ninguno de esos datos viene de Rockstar", color: "#FF4D6D"}
+    lines:
+      - "¿Y los rumores?"
+      - "Varios informes y periodistas especializados apuntan a 2027..."
+      - "...pero ninguno de esos datos viene de Rockstar."
+
+  - type: statement
+    text: "Primero, *la historia*"
+    lines:
+      - "Así que, de momento, el plan es claro: primero, la historia de Jason y Lucia."
+      - "Y cuando Rockstar hable del online, lo vas a ver aquí."
+
+  - type: checklist
+    chapter: "Mientras tanto"
+    heading: "Mientras tanto"
+    kicker: "Consejos"
+    items:
+      - "Disfruta de la historia sin prisas"
+      - "Sigue las noticias oficiales de Rockstar Newswire"
+      - "Desconfía de «betas» y «accesos anticipados»"
+    lines:
+      - "Mientras tanto, tres consejos."
+      - "Disfruta de la campaña sin prisas: es el plato fuerte."
+      - "Sigue las noticias oficiales en el Newswire de Rockstar."
+      - "Y desconfía de cualquiera que te ofrezca betas o accesos anticipados al online: a día de hoy, no existen."
+
+  - type: outro
+    chapter: "Final"
+    next: "GTA 6 vs GTA 5: las diferencias que importan"
+    lines:
+      - "Cuando haya noticias del multijugador, aquí estaremos."
+      - "Suscríbete y activa la campana."
+      - "Nos vemos en Leonida."

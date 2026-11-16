@@ -1,0 +1,180 @@
+id: "06"
+slug: personajes
+theme: sunset
+music: drive
+tag: "Personajes"
+meta:
+  title: "PERSONAJES de GTA 6: Jason, Lucia y todos los secundarios (sin spoilers)"
+  alt_titles:
+    - "Quién es quién en GTA 6: los 8 personajes confirmados"
+    - "Lucia y Jason: todo lo que sabemos de los protagonistas de GTA 6"
+  publish: "Jueves 19 de noviembre, 13:00 (hora peninsular), día de lanzamiento."
+  description: |
+    Quién es quién en GTA 6, sin spoilers: los protagonistas Lucia Caminos y Jason Duval, y los secundarios presentados oficialmente por Rockstar: Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez (Bae-Luxe y Roxy), Raul Bautista y Brian Heder. Te contamos lo que dicen sus fichas oficiales y la premisa de la historia.
+
+    Solo información de la web oficial de Grand Theft Auto VI. Datos a 16 de noviembre de 2026.
+  tags: [gta 6 personajes, personajes gta 6, lucia gta 6, jason gta 6, lucia caminos, jason duval, cal hampton, boobie ike, dre'quan priest, real dimez, raul bautista, brian heder, gta 6 protagonistas, gta 6 historia, gta vi characters]
+  pinned_comment: |
+    ¿Quién crees que va a ser el personaje favorito de la comunidad? 👇
+thumb:
+  top: "QUIÉN ES QUIÉN"
+  main: "EN GTA 6"
+  sub: "JASON, LUCIA Y LOS SECUNDARIOS"
+  badge: "SIN SPOILERS"
+  icon: users
+  bg: scenery
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Sin spoilers"
+    title: "Personajes de GTA 6: quién es quién"
+    subtitle: "Jason, Lucia y los 6 secundarios presentados por Rockstar"
+    note: "Fichas oficiales de Rockstar Games · 16 de noviembre de 2026"
+    lines:
+      - "Dos protagonistas, una pareja y un plan que sale mal."
+      - "Estos son los personajes que Rockstar ha presentado oficialmente, y lo que sabemos de cada uno sin destripar nada."
+
+  - type: profile
+    chapter: "Lucia Caminos"
+    name: "Lucia Caminos"
+    initials: "LC"
+    role: "Protagonista"
+    tag: "Ficha oficial de Rockstar"
+    facts:
+      - {icon: star, text: "La primera mujer protagonista de un GTA moderno"}
+      - {icon: hand-fist, text: "Su padre le enseñó a pelear desde que aprendió a andar"}
+      - {icon: lock, text: "Luchar por su familia la llevó a la penitenciaría de Leonida"}
+      - {icon: clover, text: "Salió de allí por pura suerte"}
+      - {icon: brain, text: "Ahora: solo movimientos inteligentes"}
+    lines:
+      - "Empezamos por Lucia Caminos."
+      - "Es la primera mujer protagonista de un GTA moderno."
+      - "Rockstar cuenta que su padre le enseñó a pelear en cuanto aprendió a andar, y que desde entonces la vida no ha dejado de golpearla."
+      - "Luchar por su familia la llevó a la penitenciaría de Leonida."
+      - "Salió de allí por pura suerte."
+      - "Y ha aprendido la lección: a partir de ahora, solo movimientos inteligentes."
+
+  - type: profile
+    chapter: "Jason Duval"
+    name: "Jason Duval"
+    initials: "JD"
+    role: "Protagonista"
+    tag: "Ficha oficial de Rockstar"
+    color: "#22E4FF"
+    facts:
+      - {icon: sun, text: "Quiere una vida fácil, pero todo se le complica"}
+      - {icon: users, text: "Creció entre estafadores y delincuentes"}
+      - {icon: shield, text: "El ejército tenía que enderezarle"}
+      - {icon: sailboat, text: "Acabó en los Cayos trabajando para traficantes"}
+    lines:
+      - "Y ahora, vamos con Jason Duval."
+      - "Jason quiere una vida fácil, pero las cosas no paran de complicarse."
+      - "Creció rodeado de estafadores y delincuentes."
+      - "Su paso por el ejército tenía que enderezarle..."
+      - "...pero terminó en los Cayos, haciendo lo que mejor sabe: trabajar para traficantes de la zona."
+
+  - type: statement
+    chapter: "La premisa"
+    text: "El lado más oscuro del *lugar más soleado* de América"
+    lines:
+      - "Su historia, según Rockstar: siempre han sabido que juegan con las cartas marcadas."
+      - "Pero cuando un golpe fácil sale mal, acaban en el lado más oscuro del lugar más soleado de América, en medio de una conspiración criminal que recorre todo Leonida."
+      - "Y tendrán que confiar el uno en el otro más que nunca si quieren salir con vida."
+
+  - type: chapter
+    chapter: "Los secundarios"
+    number: "02"
+    title: "Los secundarios"
+    lines: ["Y ahora, el reparto que les rodea."]
+
+  - type: profile
+    name: "Cal Hampton"
+    initials: "CH"
+    role: "Amigo de Jason"
+    color: "#FFD23F"
+    facts:
+      - {icon: handshake, text: "Amigo y socio de Jason"}
+      - {icon: radar, text: "Teórico de la conspiración"}
+      - {icon: radio, text: "En casa, con unas cervezas, espiando a la guardia costera"}
+    lines:
+      - "Cal Hampton es amigo y socio de Jason."
+      - "Un conspiranoico de manual..."
+      - "...que donde se siente más seguro es en casa, con unas cervezas, espiando a la guardia costera."
+
+  - type: profile
+    name: "Boobie Ike"
+    initials: "BI"
+    role: "Leyenda de Vice City"
+    color: "#FF8A3D"
+    facts:
+      - {icon: crown, text: "Una leyenda de las calles de Vice City"}
+      - {icon: building, text: "Convirtió su pasado en un imperio legal"}
+      - {icon: disc-3, text: "Inmuebles, un club y un estudio de grabación"}
+    lines:
+      - "El siguiente es Boobie Ike, una leyenda de Vice City."
+      - "Uno de los pocos que ha convertido su pasado en la calle en un imperio legal..."
+      - "...con inmuebles, un club de striptease y un estudio de grabación."
+
+  - type: profile
+    name: "Dre'Quan Priest"
+    initials: "DP"
+    role: "Mánager musical"
+    color: "#9C7BFF"
+    facts:
+      - {icon: zap, text: "Siempre fue más buscavidas que gánster"}
+      - {icon: music, text: "Quiere abrirse paso en la industria musical"}
+      - {icon: mic, text: "Su gran apuesta: Real Dimez"}
+    lines:
+      - "Dre'Quan Priest siempre fue más buscavidas que gánster."
+      - "Ahora intenta abrirse paso en la industria musical..."
+      - "...y su gran apuesta es un dúo que ya ha fichado: Real Dimez."
+
+  - type: profile
+    name: "Real Dimez"
+    initials: "RD"
+    role: "Dúo de rap"
+    color: "#FF2E88"
+    facts:
+      - {icon: users, text: "Bae-Luxe y Roxy, amigas desde el instituto"}
+      - {icon: trending-up, text: "Se hicieron virales en redes sociales"}
+      - {icon: rocket, text: "Quieren convertir la fama en una carrera"}
+    lines:
+      - "Real Dimez es un dúo formado por Bae-Luxe y Roxy, amigas desde el instituto."
+      - "Hacen rap y se han hecho virales en redes sociales..."
+      - "...y que ahora busca convertir esa fama en una carrera de verdad."
+
+  - type: profile
+    name: "Raul Bautista"
+    initials: "RB"
+    role: "Atracador"
+    color: "#00E0A4"
+    facts:
+      - {icon: landmark, text: "Atracador de bancos veterano"}
+      - {icon: sparkles, text: "Seguridad, encanto y astucia"}
+      - {icon: target, text: "Busca talento para golpes cada vez más arriesgados"}
+    lines:
+      - "Raul Bautista es un atracador de bancos veterano."
+      - "Seguridad en sí mismo, encanto y astucia..."
+      - "...y siempre anda buscando talento para golpes cada vez más arriesgados."
+
+  - type: profile
+    name: "Brian Heder"
+    initials: "BH"
+    role: "Traficante veterano"
+    color: "#22E4FF"
+    facts:
+      - {icon: anchor, text: "Traficante de la vieja escuela en los Cayos"}
+      - {icon: heart, text: "Vive con su tercera esposa, Lori"}
+      - {icon: house, text: "Jason vive en una de sus propiedades… a cambio de favores"}
+    lines:
+      - "Y Brian Heder, un traficante de la vieja escuela que se mueve por los Cayos."
+      - "Vive con su tercera esposa, Lori."
+      - "Y deja que Jason viva en una de sus propiedades, a cambio de que le eche una mano con sus asuntos."
+
+  - type: outro
+    chapter: "Final"
+    next: "El mapa de GTA 6: las 6 regiones de Leonida"
+    lines:
+      - "Este es el reparto que conocemos antes del lanzamiento. Seguro que Leonida esconde muchos más."
+      - "Suscríbete y activa la campana para no perderte nada."
+      - "Nos vemos en Leonida."

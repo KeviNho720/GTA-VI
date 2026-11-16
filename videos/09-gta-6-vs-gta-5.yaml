@@ -1,0 +1,128 @@
+id: "09"
+slug: gta-6-vs-gta-5
+theme: dusk
+music: drive
+tag: "Comparativa"
+meta:
+  title: "GTA 6 vs GTA 5: las diferencias que importan (13 años después)"
+  alt_titles:
+    - "GTA 6 contra GTA 5: qué cambia de verdad"
+    - "De Los Santos a Leonida: GTA 6 vs GTA 5 comparados"
+  publish: "Viernes 20 de noviembre, 18:00 (hora peninsular)."
+  description: |
+    GTA 6 vs GTA 5: comparamos lo que ya sabemos de Grand Theft Auto VI con el GTA más vendido de la historia. Escenario (Los Santos frente a Leonida), protagonistas (Michael, Franklin y Trevor frente a Jason y Lucia), plataformas, precio de salida, modo online y las cifras que marcan el listón.
+
+    Solo datos confirmados de GTA 6 a 16 de noviembre de 2026.
+  tags: [gta 6 vs gta 5, gta 6 diferencias, gta 6 comparativa, gta 5 vs gta 6, gta 6 vs gta v, gta 6 mapa vs gta 5, gta 6 protagonistas, los santos, leonida, michael franklin trevor, jason y lucia, gta vi vs gta v]
+  pinned_comment: |
+    ¿Qué es lo que más echarías de menos de GTA 5? 👇
+thumb:
+  top: "GTA 6"
+  main: "VS GTA 5"
+  sub: "LAS DIFERENCIAS QUE IMPORTAN"
+  badge: "13 AÑOS"
+  icon: swords
+  bg: scenery
+  theme: dusk
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Comparativa"
+    title: "GTA 6 vs GTA 5"
+    subtitle: "Las diferencias que importan, trece años después"
+    note: "Datos de GTA 6 a 16 de noviembre de 2026"
+    lines:
+      - "Trece años separan GTA 5 de GTA 6. Y se nota."
+      - "Comparamos lo que ya sabemos del nuevo con el que, para muchos, es el mejor juego de la saga."
+
+  - type: versus
+    chapter: "Cara a cara"
+    left: {title: "GTA V", sub: "2013"}
+    right: {title: "GTA VI", sub: "2026"}
+    rows:
+      - {label: "Escenario", l: "Los Santos y Blaine County", r: "Vice City y el estado de Leonida"}
+      - {label: "Protagonistas", l: "Michael, Franklin y Trevor", r: "Jason y Lucia"}
+      - {label: "Consolas de salida", l: "PS3 y Xbox 360", r: "PS5 y Xbox Series X|S"}
+      - {label: "Precio de salida (EE. UU.)", l: "59,99 $", r: "79,99 $"}
+      - {label: "Modo online", l: "GTA Online, dos semanas después", r: "Sin anunciar"}
+    lines:
+      - "Vamos cara a cara."
+      - "GTA 5 se ambientaba en Los Santos y Blaine County. GTA 6 nos lleva a Vice City y a todo el estado de Leonida."
+      - "Tres protagonistas entonces: Michael, Franklin y Trevor. Ahora, dos: Jason y Lucia."
+      - "GTA 5 salió en PS3 y Xbox 360. GTA 6 llega directamente a PS5 y Xbox Series X|S."
+      - "En Estados Unidos, GTA 5 costaba 59,99 $ de salida; GTA 6 cuesta 79,99 $."
+      - "Y el online: GTA 5 lo tuvo a las dos semanas. En GTA 6, de momento, no hay nada anunciado."
+
+  - type: chapter
+    chapter: "El escenario"
+    number: "01"
+    title: "De Los Santos a Leonida"
+    lines: ["Primera gran diferencia: el escenario."]
+
+  - type: cards
+    heading: "Un mundo nuevo"
+    cards:
+      - {icon: map, title: "Un estado entero", text: "Leonida tiene seis zonas presentadas: de la gran ciudad a los pantanos, las islas y la montaña."}
+      - {icon: smartphone, title: "Cultura de internet", text: "Los tráileres muestran vídeos virales y redes sociales dentro del propio juego."}
+      - {icon: sun, title: "Florida en vez de California", text: "GTA 5 parodiaba Los Ángeles. GTA 6 se ríe de Florida y de Miami."}
+    lines:
+      - "Y no es solo un cambio de ciudad."
+      - "Leonida es un estado entero, con seis zonas presentadas: de la gran ciudad a los pantanos, las islas y la montaña."
+      - "Los tráileres también muestran vídeos virales y redes sociales dentro del propio juego, todo un guiño a la cultura de internet."
+      - "Y cambiamos de sátira: GTA 5 parodiaba Los Ángeles y California. GTA 6 apunta a Florida y a Miami."
+
+  - type: chapter
+    chapter: "Los protagonistas"
+    number: "02"
+    title: "Tres contra dos"
+    lines: ["Segunda diferencia: quién lleva la historia."]
+
+  - type: compare
+    heading: "Protagonistas"
+    columns:
+      - title: "GTA V"
+        value: "Tres"
+        at: 0
+        items:
+          - {text: "Michael, Franklin y Trevor"}
+          - {text: "Tres vidas que se cruzan por los golpes"}
+          - {text: "Solo hombres al frente"}
+      - title: "GTA VI"
+        value: "Dos"
+        highlight: true
+        at: 2
+        items:
+          - {text: "Jason y Lucia"}
+          - {text: "Una pareja que depende el uno del otro"}
+          - {text: "La primera mujer protagonista de un GTA moderno"}
+    lines:
+      - "GTA 5 apostó por tres protagonistas."
+      - "Michael, Franklin y Trevor: tres vidas muy distintas que se cruzaban gracias a los golpes."
+      - "GTA 6 apuesta por una pareja, Jason y Lucia, que tendrá que confiar el uno en el otro para salir con vida. Y con Lucia llega la primera mujer protagonista de un GTA moderno."
+
+  - type: chapter
+    chapter: "Las cifras"
+    number: "03"
+    title: "Las cifras"
+    lines: ["Y tercera: el listón que tiene que superar."]
+
+  - type: table
+    heading: "El listón"
+    rows:
+      - {label: "Copias vendidas de GTA V", value: "Más de 200 millones", icon: trophy, at: 1}
+      - {label: "Vistas del 1.er tráiler de GTA VI en 24 h", value: "Más de 90 millones", icon: play, at: 2}
+      - {label: "Tamaño de GTA VI", value: "Hasta 212 GB", icon: hard-drive, at: 3}
+    highlight: 0
+    lines:
+      - "Los números asustan."
+      - "GTA 5 ha superado los doscientos millones de copias vendidas, una de las cifras más altas de la historia del entretenimiento."
+      - "El primer tráiler de GTA 6 pasó de los noventa millones de visualizaciones en YouTube en solo veinticuatro horas, un récord para un vídeo que no es de música."
+      - "Y el juego ocupa hasta 212 GB. Todo en GTA 6 es a lo grande."
+
+  - type: outro
+    chapter: "Final"
+    next: "13 años de espera: la historia de GTA 6"
+    lines:
+      - "Trece años después, el reto es enorme. El jueves empezamos a comprobar si lo supera."
+      - "Suscríbete y activa la campana."
+      - "Nos vemos en Leonida."

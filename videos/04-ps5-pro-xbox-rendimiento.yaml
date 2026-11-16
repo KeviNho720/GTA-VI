@@ -1,0 +1,158 @@
+id: "04"
+slug: ps5-pro-xbox-rendimiento
+theme: miami
+music: tension
+tag: "Rendimiento"
+meta:
+  title: "GTA 6 en PS5, PS5 Pro y Xbox: 30 FPS, PSSR… ¿y en PS4 o Xbox One?"
+  alt_titles:
+    - "¿Merece la pena la PS5 Pro para GTA 6? Lo que ha confirmado Rockstar"
+    - "GTA 6 NO tendrá 60 FPS: qué cambia en cada consola"
+  publish: "Miércoles 18 de noviembre, 13:00 (hora peninsular)."
+  description: |
+    ¿Dónde se ve mejor GTA 6? Rockstar ha confirmado que el juego apunta a 30 FPS en todas las consolas. La PS5 Pro no gana fluidez, pero suma PSSR y sombras con trazado de rayos exclusivas. En PS5 hay respuesta háptica y audio 3D Tempest, y en Xbox One se podrá jugar a través de Xbox Cloud Gaming con los ajustes de Xbox Series S. ¿Y en PS4? No hay versión.
+
+    Te lo explicamos consola por consola y te damos consejos para que se vea lo mejor posible desde el primer día.
+
+    📌 Fuente: Rockstar Newswire (10 de noviembre de 2026). Datos a 16 de noviembre de 2026.
+  tags: [gta 6 ps5 pro, gta 6 60 fps, gta 6 30 fps, gta 6 ps5, gta 6 xbox series x, gta 6 xbox series s, gta 6 ps4, gta 6 xbox one, gta 6 xbox cloud gaming, gta 6 pssr, gta 6 rendimiento, gta 6 graficos, gta 6 trazado de rayos, gta vi ps5 pro]
+  pinned_comment: |
+    ¿En qué consola lo vas a jugar? 👇 PS5, PS5 Pro, Series X, Series S… o en la nube.
+thumb:
+  top: "PS5 PRO, PS5"
+  main: "O XBOX?"
+  sub: "DÓNDE SE VE MEJOR GTA 6"
+  badge: "30 FPS"
+  icon: monitor
+  bg: ocean
+  theme: miami
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Rendimiento"
+    title: "¿Dónde se ve mejor GTA 6?"
+    subtitle: "PS5, PS5 Pro y Xbox: 30 FPS, PSSR… ¿y en PS4 o Xbox One?"
+    note: "Información de Rockstar Games · 16 de noviembre de 2026"
+    lines:
+      - {text: "30 FPS. Esa es la cifra que Rockstar ha confirmado para GTA 6, y ha levantado bastante debate.", say: "Treinta fotogramas por segundo. Esa es la cifra que Rocstar ha confirmado para getea seis, y ha levantado bastante debate."}
+      - "Vamos a ver qué ofrece cada consola, si la PS5 Pro merece la pena y qué pasa si todavía juegas en PS4 o en Xbox One."
+
+  - type: stat
+    chapter: "30 FPS en todas las consolas"
+    kicker: "Confirmado"
+    icon: gauge
+    value: "30 FPS"
+    label: "Objetivo en todas las consolas"
+    sub: "Sin modo rendimiento anunciado para el lanzamiento"
+    source: "Rockstar Newswire"
+    count: false
+    lines:
+      - {text: "Lo primero: según Rockstar, el juego apunta a 30 FPS en todas las plataformas.", say: "Lo primero: según Rocstar, el juego apunta a treinta fotogramas por segundo en todas las plataformas."}
+      - "Y no ha anunciado un modo rendimiento para el lanzamiento."
+
+  - type: statement
+    text: "Rockstar lleva las consolas *al límite*"
+    lines:
+      - "Su explicación es que el juego exprime al máximo las consolas, y ha fijado ese mismo objetivo para todas."
+      - "Ojo a la palabra: objetivo. Rockstar no ha prometido más, ni ha descartado cambios en el futuro."
+
+  - type: table
+    chapter: "Consola por consola"
+    heading: "Consola por consola"
+    source: "Rockstar Games"
+    rows:
+      - {label: "PS5", value: "Háptica · audio 3D · cargas rápidas", icon: gamepad-2, at: 1}
+      - {label: "PS5 Pro", value: "PSSR + sombras con trazado de rayos", icon: sparkles, at: 2}
+      - {label: "Xbox Series X|S", value: "30 FPS objetivo", icon: gamepad, at: 3}
+      - {label: "Xbox One", value: "Vía Xbox Cloud Gaming", icon: cloud, at: 4}
+      - {label: "PS4", value: "No disponible", icon: ban, at: 4, delay: 0.6}
+    highlight: 1
+    lines:
+      - "Consola por consola."
+      - "En PS5 tendrás respuesta háptica en el mando, audio 3D Tempest, y tiempos de carga más cortos, según Rockstar."
+      - "En PS5 Pro, la misma fluidez, pero con una imagen más nítida gracias a PSSR y con sombras con trazado de rayos que solo tiene esta consola."
+      - "En Xbox Series X y Series S, el objetivo es el mismo: treinta fotogramas."
+      - "Y luego están las consolas antiguas, que merecen capítulo propio."
+
+  - type: chapter
+    chapter: "¿Merece la pena la PS5 Pro?"
+    number: "02"
+    title: "¿Merece la pena la PS5 Pro?"
+    lines: ["La pregunta del millón: ¿compensa la PS5 Pro?"]
+
+  - type: compare
+    heading: "PS5 vs PS5 Pro"
+    source: "Rockstar Games"
+    columns:
+      - title: "PS5"
+        value: "30 FPS"
+        at: 1
+        items:
+          - {text: "Mismo objetivo de fluidez"}
+          - {text: "Háptica y audio 3D Tempest"}
+          - {text: "Sombras con trazado de rayos", mark: x}
+      - title: "PS5 Pro"
+        value: "30 FPS"
+        badge: "Más nitidez"
+        highlight: true
+        at: 2
+        items:
+          - {text: "Mismo objetivo de fluidez"}
+          - {text: "Escalado PSSR: imagen más limpia"}
+          - {text: "Sombras con trazado de rayos exclusivas"}
+    lines:
+      - "Si estás pensando en comprar una PS5 Pro solo por GTA 6, ojo."
+      - "La Pro no te da más fotogramas: el objetivo sigue siendo treinta."
+      - "Lo que te da es una imagen más limpia y unas sombras más realistas, algo que se notará sobre todo con los cambios de luz a lo largo del día en Leonida."
+      - "Si ya tienes una PS5, vas a jugar la misma experiencia y al mismo ritmo. La Pro es un extra visual, no un salto de fluidez."
+
+  - type: chapter
+    chapter: "¿Y en PS4 o Xbox One?"
+    number: "03"
+    title: "¿PS4? ¿Xbox One?"
+    lines: ["Y ahora, las consolas de la generación anterior."]
+
+  - type: verdict
+    kicker: "PS4"
+    question: "¿Hay GTA 6 para PS4?"
+    verdict: "No"
+    note: "Solo sale en PS5 y Xbox Series X|S. No hay versión de PS4 anunciada."
+    lines:
+      - "La pregunta que más se repite en los comentarios: ¿sale para PS4?"
+      - "La respuesta es no."
+      - "El juego es exclusivo de la generación actual. No hay ninguna versión de PS4 anunciada."
+
+  - type: verdict
+    kicker: "Xbox One"
+    question: "¿Y en Xbox One?"
+    verdict: "En la nube"
+    color: "#22E4FF"
+    note: "Vía Xbox Cloud Gaming, con los ajustes gráficos de Xbox Series S."
+    lines:
+      - "¿Y en Xbox One? Aquí hay sorpresa."
+      - "Rockstar ha confirmado que se podrá jugar en la nube, a través de Xbox Cloud Gaming."
+      - "Funcionará con los ajustes gráficos de una Xbox Series S, y vas a necesitar una buena conexión a internet."
+
+  - type: checklist
+    chapter: "Consejos para que se vea mejor"
+    heading: "Que se vea lo mejor posible"
+    kicker: "Consejos"
+    items:
+      - "Calibra el HDR en los ajustes de la consola"
+      - "Activa el modo juego del televisor"
+      - "En la nube: cable de red o buena wifi"
+      - "Deja libres al menos 212 GB"
+    lines:
+      - "Y cuatro consejos rápidos para el primer día."
+      - "Calibra el HDR desde los ajustes de tu consola."
+      - "Activa el modo juego de la tele para reducir el retraso de la imagen."
+      - "Si juegas en la nube, mejor con cable o con una wifi potente."
+      - "Y deja libres al menos 212 GB."
+
+  - type: outro
+    chapter: "Final"
+    next: "¿Cuándo sale GTA 6 en PC? Lo único confirmado"
+    lines:
+      - "Resumiendo: treinta fotogramas en todas, la Pro gana en nitidez y Xbox One se apunta desde la nube."
+      - "Suscríbete y activa la campana: seguimos con todo lo que traiga el lanzamiento."
+      - "Nos vemos en Leonida."

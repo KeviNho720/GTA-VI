@@ -1,0 +1,108 @@
+id: "10"
+slug: historia-de-gta-6
+theme: sunset
+music: ocean
+tag: "La historia de GTA 6"
+meta:
+  title: "13 AÑOS de espera: la historia de GTA 6, del anuncio al lanzamiento"
+  alt_titles:
+    - "Así llegó GTA 6: filtraciones, récords y dos retrasos"
+    - "La espera más larga: cronología completa de GTA 6"
+  publish: "Sábado 21 de noviembre, 12:00 (hora peninsular). Contenido atemporal: funciona durante semanas."
+  description: |
+    De septiembre de 2013 al 19 de noviembre de 2026: la historia de cómo llegó GTA 6. La confirmación oficial de 2022, la mayor filtración en la historia de Rockstar, el tráiler que batió récords en YouTube, los dos retrasos, las reservas, la precarga y el lanzamiento.
+
+    Datos a 16 de noviembre de 2026.
+  tags: [historia de gta 6, gta 6 cronologia, gta 6 espera, gta 6 retraso, gta 6 filtracion, gta 6 trailer record, gta 6 13 años, gta 6 documental, gta 6 lanzamiento, gta vi historia]
+  pinned_comment: |
+    ¿Dónde estabas cuando salió el primer tráiler? 👇
+thumb:
+  top: "13 AÑOS"
+  main: "DE ESPERA"
+  sub: "LA HISTORIA DE GTA 6"
+  badge: "2013-2026"
+  icon: hourglass
+  bg: ocean
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "La historia de GTA 6"
+    title: "13 años de espera"
+    subtitle: "Del lanzamiento de GTA V al 19 de noviembre de 2026"
+    note: "Datos a 16 de noviembre de 2026"
+    lines:
+      - "Septiembre de 2013. GTA 5 sale a la venta, y empieza una de las esperas más largas de la historia de los videojuegos."
+      - "Esta es la historia de cómo hemos llegado hasta aquí."
+
+  - type: timeline
+    chapter: "La espera (2013-2022)"
+    heading: "La larga espera"
+    events:
+      - {date: "Sep 2013", text: "Sale GTA V"}
+      - {date: "Oct 2013", text: "Llega GTA Online"}
+      - {date: "Feb 2022", text: "Rockstar confirma que el próximo GTA está en desarrollo"}
+    lines:
+      - "Durante años, el silencio fue total."
+      - "GTA 5 salió en septiembre de 2013..."
+      - "...y dos semanas después llegó GTA Online, que mantuvo vivo el juego durante más de una década."
+      - "Hasta que en febrero de 2022, casi nueve años después, Rockstar confirmó por fin que el siguiente GTA estaba en marcha."
+
+  - type: statement
+    chapter: "La gran filtración"
+    text: "Septiembre de 2022: *la gran filtración*"
+    lines:
+      - "Y unos meses después, el golpe."
+      - "En septiembre de 2022, decenas de vídeos de una versión muy temprana del juego se filtraron en internet."
+      - "Rockstar confirmó el ataque, dijo estar profundamente decepcionada y aseguró que el desarrollo seguiría adelante."
+      - "El responsable, un joven hacker, fue detenido en Reino Unido."
+
+  - type: stat
+    chapter: "El tráiler récord"
+    kicker: "Primer tráiler · diciembre de 2023"
+    icon: play
+    value: "+90 M"
+    label: "Visualizaciones en 24 horas"
+    sub: "Récord en YouTube para un vídeo que no es de música"
+    count: false
+    lines:
+      - "En diciembre de 2023 llegó el primer tráiler, y lo hizo antes de tiempo: una filtración obligó a Rockstar a adelantarlo unas horas."
+      - "En veinticuatro horas superó los noventa millones de visualizaciones en YouTube: un récord para un vídeo que no es de música."
+
+  - type: timeline
+    chapter: "Retrasos y lanzamiento"
+    heading: "La recta final"
+    events:
+      - {date: "May 2025", text: "Primer retraso, a mayo de 2026, y segundo tráiler"}
+      - {date: "Nov 2025", text: "Segundo retraso: 19 de noviembre de 2026"}
+      - {date: "Jun 2026", text: "Se abren las reservas"}
+      - {date: "10 Nov 2026", text: "Empieza la precarga"}
+      - {date: "19 Nov 2026", text: "Lanzamiento", color: "#FFD23F"}
+    lines:
+      - "Y entonces, la recta final, que se hizo bastante más larga de lo previsto."
+      - "En mayo de 2025, Rockstar retrasó el juego a mayo de 2026, y días después publicó el segundo tráiler."
+      - "En noviembre de 2025 llegó el segundo retraso: el 19 de noviembre de 2026."
+      - "A finales de junio de 2026 se abrieron las reservas..."
+      - "...el 10 de noviembre empezó la precarga..."
+      - "...y el 19 de noviembre, por fin, el lanzamiento."
+
+  - type: quote
+    text: "Sentimos añadir más tiempo a lo que sabemos que ha sido una larga espera, pero estos meses extra nos permitirán terminar el juego con el nivel de pulido que esperáis y merecéis."
+    source: "Rockstar Games, noviembre de 2025 (traducción)"
+    lines:
+      - "Así lo explicó Rockstar al anunciar el último retraso."
+      - "Sentimos añadir más tiempo a lo que sabemos que ha sido una larga espera, pero estos meses extra nos permitirán terminar el juego con el nivel de pulido que esperáis y merecéis."
+
+  - type: statement
+    chapter: "Ahora nos toca jugar"
+    text: "Y ahora, *por fin*, nos toca jugar"
+    lines:
+      - "Trece años, una filtración histórica, dos retrasos y un tráiler récord después..."
+      - "...por fin nos toca jugar."
+
+  - type: outro
+    chapter: "Final"
+    next: "GTA 6: todo lo que sabemos antes de jugar"
+    lines:
+      - "Si has llegado hasta aquí, eres de los que han esperado todo este tiempo."
+      - "Suscríbete y activa la campana: la historia de GTA 6 la seguimos escribiendo aquí."
+      - "Nos vemos en Leonida."

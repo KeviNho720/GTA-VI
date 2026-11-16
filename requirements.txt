@@ -1,0 +1,8 @@
+skia-python==144.1
+piper-tts==1.8.0
+onnxruntime
+numpy
+scipy
+PyYAML
+# opcional, para make qa
+# faster-whisper

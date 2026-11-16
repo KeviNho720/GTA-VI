@@ -1,0 +1,251 @@
+id: "01"
+slug: todo-lo-que-sabemos
+theme: sunset
+music: neon
+tag: "Resumen definitivo"
+meta:
+  title: "GTA 6: TODO lo que sabemos antes de jugar (fecha, hora, precio, mapa, personajes, PC y Online)"
+  alt_titles:
+    - "GTA 6 en 7 minutos: todo lo CONFIRMADO (sin spoilers)"
+    - "Todo sobre GTA 6 antes del lanzamiento: lo que es verdad y lo que es humo"
+  publish: "Miércoles 18 de noviembre, 18:00 (hora peninsular). Es el vídeo «puerta de entrada» del canal: fíjalo en la portada."
+  description: |
+    GTA 6 sale el 19 de noviembre de 2026 y aquí tienes TODO lo confirmado en un solo vídeo, sin spoilers: fecha y hora de lanzamiento, precarga y espacio (212 GB), precio y ediciones (Estándar y Ultimate), la edición física sin disco, el mapa de Leonida, Jason y Lucia, los personajes secundarios, si sale en PC, si hay GTA 6 Online y cómo rinde en PS5, PS5 Pro y Xbox.
+
+    Solo información confirmada por Rockstar Games o por las tiendas oficiales. Datos a 16 de noviembre de 2026.
+
+    📌 Fuentes: Rockstar Newswire, soporte oficial de Rockstar Games, tiendas de PlayStation y Xbox.
+  tags: [gta 6, gta vi, gta 6 todo lo que sabemos, gta 6 fecha de lanzamiento, gta 6 precio, gta 6 mapa, gta 6 personajes, gta 6 pc, gta 6 online, gta 6 ps5, leonida, vice city, jason y lucia, grand theft auto 6, gta 6 resumen]
+  pinned_comment: |
+    ¿Qué es lo que más ganas tienes de hacer en Leonida? 👇 Te leemos.
+    Todos los datos del vídeo están confirmados a 16/11/2026. Si Rockstar anuncia algo nuevo, lo actualizamos aquí.
+thumb:
+  top: "TODO SOBRE"
+  main: "GTA 6"
+  sub: "LO CONFIRMADO · SIN SPOILERS"
+  badge: "19 NOV"
+  icon: badge-check
+  bg: scenery
+scenes:
+  - type: title
+    chapter: "Intro"
+    kicker: "Resumen definitivo · sin spoilers"
+    title: "GTA 6: todo lo que sabemos"
+    subtitle: "Fecha, hora, precio, mapa, personajes, PC y Online en un solo vídeo"
+    note: "Información confirmada a 16 de noviembre de 2026"
+    lines:
+      - "Después de más de diez años de espera, GTA 6 llega este jueves."
+      - "Y con tantos rumores sueltos, aquí va lo único que importa: lo que está confirmado."
+      - "Fecha, hora, precio, mapa, personajes, PC y modo online. Todo en un solo vídeo, y sin spoilers."
+
+  - type: chapter
+    chapter: "Fecha, hora y precarga"
+    number: "01"
+    title: "Fecha, hora y precarga"
+    lines: ["Empezamos por lo básico."]
+
+  - type: bullets
+    heading: "Lanzamiento"
+    kicker: "Confirmado"
+    source: "Rockstar Games"
+    first: 0
+    items:
+      - {icon: calendar, text: "Jueves 19 de noviembre de 2026"}
+      - {icon: gamepad-2, text: "PS5 y Xbox Series X|S"}
+      - {icon: clock, text: "A medianoche, hora local, en todas las regiones"}
+      - {icon: download, text: "Precarga abierta desde el 10 de noviembre"}
+    lines:
+      - "GTA 6 sale el jueves 19 de noviembre de 2026."
+      - "Llega a la PS5 y a la Xbox Series X|S."
+      - "Se desbloquea a medianoche, hora local, en todas las regiones. En la España peninsular, eso es a las doce de la noche del miércoles al jueves."
+      - "Y si lo has reservado en digital, puedes precargarlo desde el 10 de noviembre."
+
+  - type: stat
+    kicker: "Espacio"
+    icon: hard-drive
+    value: "212 GB"
+    label: "Tamaño máximo de la precarga"
+    sub: "Según Rockstar, la cifra exacta depende de la consola"
+    source: "Rockstar Games"
+    lines:
+      - "Ojo con el espacio: la precarga ocupa hasta 212 GB, según la consola."
+      - "Así que, si vas justo, toca hacer limpieza antes del jueves."
+
+  - type: chapter
+    chapter: "Precio y ediciones"
+    number: "02"
+    title: "Precio y ediciones"
+    lines: ["Hablemos de dinero."]
+
+  - type: compare
+    heading: "Dos ediciones"
+    source: "Rockstar Games y tiendas digitales"
+    columns:
+      - title: "Estándar"
+        value: "79,99 €"
+        items:
+          - {text: "El juego completo"}
+          - {text: "Digital o física (código en caja)"}
+          - {text: "Contenido extra de la Ultimate", mark: x}
+      - title: "Ultimate"
+        value: "99,99 €"
+        badge: "Solo digital"
+        highlight: true
+        items:
+          - {text: "El juego completo"}
+          - {text: "Vehículos, armas, estilos y negocios extra"}
+          - {text: "Se desbloquea capítulo a capítulo"}
+    lines:
+      - "Hay dos ediciones."
+      - "La Estándar cuesta 79,99 €."
+      - "Y la Ultimate, 99,99 €, con vehículos, armas, estilos y negocios extra que se van desbloqueando a medida que avanzas en la historia."
+      - "Además, las compras digitales hechas antes del 20 de noviembre incluyen el Vintage Vice City Pack y un mes de GTA+."
+
+  - type: verdict
+    kicker: "Edición física"
+    question: "¿La edición física de GTA 6 trae disco?"
+    verdict: "No"
+    note: "La caja incluye un código de descarga. Rockstar lo ha confirmado."
+    lines:
+      - "Y una polémica que conviene saber antes de comprar."
+      - "¿La edición física trae disco? La respuesta es no."
+      - "La caja incluye un código para descargar el juego, así que vas a necesitar conexión y espacio igualmente."
+
+  - type: chapter
+    chapter: "El mapa: Leonida"
+    number: "03"
+    title: "Leonida"
+    kicker: "El mapa"
+    lines: ["Ahora, el mundo."]
+
+  - type: map
+    regions:
+      - {name: "Vice City", pos: [838, 712], icon: building-2, tag: "La gran ciudad", text: "Playas, rascacielos y vida nocturna. La ciudad que más protagonismo ha tenido en los tráileres.", label_off: [24, 8]}
+      - {name: "Leonida Keys", pos: [700, 930], icon: sailboat, tag: "Islas del sur", text: "Una cadena de islas al sur del estado, inspirada en los Cayos de Florida.", label_off: [26, 36]}
+      - {name: "Grassrivers", pos: [705, 760], label_off: [-24, 10], label_align: right, icon: trees, tag: "Humedales", text: "Pantanos, humedales y caimanes, al estilo de los Everglades."}
+      - {name: "Port Gellhorn", pos: [300, 232], label_off: [0, 44], label_align: center, icon: anchor, tag: "Costa", text: "Un pueblo costero que vivió tiempos mejores."}
+      - {name: "Ambrosia", pos: [660, 470], icon: factory, tag: "Interior", text: "Una zona del interior ligada a la industria del azúcar."}
+      - {name: "Mount Kalaga", pos: [590, 190], icon: mountain, tag: "Parque nacional", text: "Naturaleza salvaje al norte: montaña, bosques y senderos.", label_off: [0, -26], label_align: center}
+    lines:
+      - "GTA 6 transcurre en Leonida, la versión de Rockstar de Florida, y su web oficial presenta seis zonas."
+      - "Vice City, la gran ciudad, con sus playas y su vida nocturna."
+      - "Leonida Keys, una cadena de islas al sur."
+      - "Grassrivers, la zona de pantanos y humedales."
+      - "Port Gellhorn, un pueblo costero que vivió tiempos mejores."
+      - "Ambrosia, en el interior, ligada a la industria del azúcar."
+      - "Y el parque nacional de Mount Kalaga, al norte, para los amantes de la naturaleza."
+
+  - type: chapter
+    chapter: "Personajes"
+    number: "04"
+    title: "Los personajes"
+    lines: ["Y los protagonistas."]
+
+  - type: profile
+    name: "Lucia Caminos"
+    initials: "LC"
+    role: "Protagonista"
+    tag: "Ficha oficial de Rockstar"
+    facts:
+      - {icon: star, text: "La primera mujer protagonista de un GTA moderno"}
+      - {icon: hand-fist, text: "Su padre le enseñó a pelear desde niña"}
+      - {icon: lock, text: "Luchar por su familia la llevó a prisión"}
+    lines:
+      - "Lucia Caminos es la primera mujer protagonista de un GTA moderno."
+      - "Según Rockstar, su padre le enseñó a pelear en cuanto aprendió a andar."
+      - "Y luchar por su familia la llevó a la penitenciaría de Leonida."
+
+  - type: profile
+    name: "Jason Duval"
+    initials: "JD"
+    role: "Protagonista"
+    tag: "Ficha oficial de Rockstar"
+    color: "#22E4FF"
+    facts:
+      - {icon: users, text: "Creció rodeado de estafadores y delincuentes"}
+      - {icon: shield, text: "El ejército tenía que enderezarle"}
+      - {icon: sailboat, text: "Acabó en los Cayos trabajando para traficantes"}
+    lines:
+      - "Jason Duval es el otro protagonista."
+      - "Creció rodeado de estafadores y delincuentes de poca monta."
+      - "Su paso por el ejército tenía que enderezarle..."
+      - "...pero acabó en los Cayos, haciendo lo que mejor sabe: trabajar para traficantes de la zona."
+
+  - type: statement
+    text: "Un golpe fácil que *sale mal*"
+    lines:
+      - "La premisa oficial: un golpe aparentemente fácil sale mal, y los dos acaban metidos en una conspiración criminal que se extiende por todo Leonida."
+
+  - type: cards
+    heading: "Los secundarios"
+    kicker: "Presentados por Rockstar"
+    cards:
+      - {icon: radio, title: "Cal Hampton", text: "Amigo y socio de Jason. Conspiranoico."}
+      - {icon: crown, title: "Boobie Ike", text: "Leyenda de Vice City con su propio imperio."}
+      - {icon: music, title: "Dre'Quan Priest", text: "Quiere triunfar en la industria musical."}
+      - {icon: mic, title: "Real Dimez", text: "Dúo de rap que se ha hecho viral."}
+      - {icon: landmark, title: "Raul Bautista", text: "Atracador de bancos veterano."}
+      - {icon: anchor, title: "Brian Heder", text: "Traficante de la vieja escuela en los Cayos."}
+    lines:
+      - "Y a su alrededor, seis secundarios presentados por Rockstar."
+      - "Cal Hampton, el amigo conspiranoico de Jason."
+      - "Boobie Ike, una leyenda de Vice City con su propio imperio."
+      - "Dre'Quan Priest, que quiere triunfar en la música."
+      - "Real Dimez, un dúo de rap que se ha hecho viral."
+      - "Raul Bautista, un atracador veterano."
+      - "Y Brian Heder, traficante de la vieja escuela en los Cayos."
+
+  - type: chapter
+    chapter: "¿PC? ¿Online?"
+    number: "05"
+    title: "¿PC? ¿Online?"
+    lines: ["Y las dos preguntas que más se repiten."]
+
+  - type: verdict
+    kicker: "PC"
+    question: "¿Sale GTA 6 en PC el 19 de noviembre?"
+    verdict: "No"
+    note: "No hay versión de PC anunciada ni fecha oficial."
+    lines:
+      - "¿Sale en PC el día del lanzamiento?"
+      - "La respuesta corta es no."
+      - "A día de hoy, ni Rockstar ni Take-Two han anunciado una versión para ordenador. Cualquier fecha que leas es un rumor."
+
+  - type: verdict
+    kicker: "Multijugador"
+    question: "¿Hay GTA 6 Online desde el primer día?"
+    verdict: "Sin anunciar"
+    color: "#FFD23F"
+    note: "Rockstar no ha anunciado modo online ni fecha."
+    lines:
+      - "¿Y el modo online?"
+      - "De momento, está sin anunciar."
+      - "Rockstar no ha anunciado ningún modo multijugador, ni fecha para él."
+
+  - type: chapter
+    chapter: "Rendimiento en consolas"
+    number: "06"
+    title: "Cómo se verá"
+    lines: ["Último bloque: el rendimiento."]
+
+  - type: table
+    heading: "Versiones de consola"
+    source: "Rockstar Games"
+    highlight: 1
+    rows:
+      - {label: "PS5", value: "30 FPS objetivo", icon: gamepad-2, at: 0}
+      - {label: "PS5 Pro", value: "30 FPS + PSSR + sombras RT", icon: sparkles, at: 1}
+      - {label: "Xbox Series X|S", value: "30 FPS objetivo", icon: gamepad, at: 0, delay: 0.4}
+      - {label: "Xbox One", value: "Solo vía Xbox Cloud Gaming", icon: cloud, at: 2}
+    lines:
+      - {text: "Rockstar ha confirmado que el juego apunta a 30 FPS en todas las consolas.", say: "Rocstar ha confirmado que el juego apunta a treinta fotogramas por segundo en todas las consolas."}
+      - "En PS5 Pro no gana fluidez, pero sí nitidez con PSSR y unas sombras con trazado de rayos exclusivas."
+      - "Y una sorpresa: en Xbox One podrás jugarlo en la nube, a través de Xbox Cloud Gaming."
+
+  - type: outro
+    chapter: "Final"
+    next: "¿A qué hora sale GTA 6? Horario por país"
+    lines:
+      - "Y esto es todo lo confirmado a pocos días del lanzamiento."
+      - "Suscríbete y activa la campana: el día de salida seguimos con guías del mapa, de los personajes y de todo lo que se vaya descubriendo."
+      - "Nos vemos en Leonida."
