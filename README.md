@@ -6,21 +6,23 @@ Todo el material visual y sonoro es **original y generado por código**: no se u
 
 ## Los 10 vídeos
 
-| # | Vídeo | Guion |
-|---|---|---|
-| 01 | GTA 6: todo lo que sabemos (resumen sin spoilers) | `videos/01-todo-lo-que-sabemos.yaml` |
-| 02 | ¿A qué hora sale GTA 6? Horario por país + precarga | `videos/02-a-que-hora-sale.yaml` |
-| 03 | Precio y ediciones: ¿Estándar o Ultimate? | `videos/03-precio-y-ediciones.yaml` |
-| 04 | PS5, PS5 Pro o Xbox: 30 FPS, PSSR, PS4 y Xbox One | `videos/04-ps5-pro-xbox-rendimiento.yaml` |
-| 05 | El mapa de Leonida: las 6 regiones | `videos/05-mapa-de-leonida.yaml` |
-| 06 | Personajes: Jason, Lucia y los secundarios | `videos/06-personajes.yaml` |
-| 07 | ¿Cuándo sale GTA 6 en PC? | `videos/07-gta-6-pc.yaml` |
-| 08 | ¿Tiene GTA 6 modo online? | `videos/08-gta-6-online.yaml` |
-| 09 | GTA 6 vs GTA 5 | `videos/09-gta-6-vs-gta-5.yaml` |
-| 10 | 13 años de espera: la historia de GTA 6 | `videos/10-historia-de-gta-6.yaml` |
+| # | Vídeo | Duración | Guion |
+|---|---|---|---|
+| 01 | GTA 6: todo lo que sabemos (resumen sin spoilers) | 3:37 | `videos/01-todo-lo-que-sabemos.yaml` |
+| 02 | ¿A qué hora sale GTA 6? Horario por país + precarga | 2:35 | `videos/02-a-que-hora-sale.yaml` |
+| 03 | Precio y ediciones: ¿Estándar o Ultimate? | 1:58 | `videos/03-precio-y-ediciones.yaml` |
+| 04 | PS5, PS5 Pro o Xbox: 30 FPS, PSSR, PS4 y Xbox One | 2:25 | `videos/04-ps5-pro-xbox-rendimiento.yaml` |
+| 05 | El mapa de Leonida: las 6 regiones | 1:44 | `videos/05-mapa-de-leonida.yaml` |
+| 06 | Personajes: Jason, Lucia y los secundarios | 2:21 | `videos/06-personajes.yaml` |
+| 07 | ¿Cuándo sale GTA 6 en PC? | 1:24 | `videos/07-gta-6-pc.yaml` |
+| 08 | ¿Tiene GTA 6 modo online? | 1:17 | `videos/08-gta-6-online.yaml` |
+| 09 | GTA 6 vs GTA 5 | 2:01 | `videos/09-gta-6-vs-gta-5.yaml` |
+| 10 | 13 años de espera: la historia de GTA 6 | 1:53 | `videos/10-historia-de-gta-6.yaml` |
 
 - Qué busca la gente y fuentes de cada dato: [`docs/INVESTIGACION.md`](docs/INVESTIGACION.md)
 - Calendario de publicación y checklist de subida: [`docs/PUBLICACION.md`](docs/PUBLICACION.md)
+
+**Los vídeos terminados, listos para subir, están en [`entregables/`](entregables/)** (vídeo, miniatura, subtítulos y ficha con título, descripción y etiquetas), junto con la imagen de canal en `entregables/canal/`.
 
 ## Cómo se generan
 
