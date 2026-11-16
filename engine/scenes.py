@@ -317,26 +317,28 @@ def _count_value(value, p):
 def s_stat(c, ctx, sc, t):
     th = ctx.th
     accent = sc.get("color", th["a1"])
-    cx, cy = W / 2, 470
+    cx, cy = W / 2, 485
+    R = 315
     t0 = cue(sc, sc.get("at", 0)) if sc.get("at") is not None else 0.1
     a = appear(t, t0, 0.5)
     # halo y anillos
-    c.drawCircle(cx, cy, 420, skia.Paint(AntiAlias=True, Shader=rad_grad(cx, cy, 420, [accent, accent],
+    c.drawCircle(cx, cy, R + 120, skia.Paint(AntiAlias=True, Shader=rad_grad(cx, cy, R + 120, [accent, accent],
                  alphas=[0.30 * a, 0.0])))
+    c.drawCircle(cx, cy, R - 4, paint("#05020C", 0.35 * a))
     ring = paint(accent, 0.55 * a, stroke=3)
     ring.setPathEffect(skia.DashPathEffect.Make([18, 14], t * 40))
-    c.drawCircle(cx, cy, 330, ring)
+    c.drawCircle(cx, cy, R + 30, ring)
     arc = paint(accent, a, stroke=8, cap_round=True)
     sweep = 360 * appear(t, t0 + 0.1, 1.3, ease_in_out)
-    c.drawArc(skia.Rect.MakeLTRB(cx - 300, cy - 300, cx + 300, cy + 300), -90, sweep, False, arc)
+    c.drawArc(skia.Rect.MakeLTRB(cx - R, cy - R, cx + R, cy + R), -90, sweep, False, arc)
     if sc.get("kicker"):
-        pill(c, cx, 132, sc["kicker"].upper(), "xbold", 24, "#0B0618", th["a3"], appear(t, 0, 0.4),
+        pill(c, cx, 92, sc["kicker"].upper(), "xbold", 24, "#0B0618", th["a3"], appear(t, 0, 0.4),
              align="center")
     if sc.get("icon"):
-        icon(c, sc["icon"], cx, cy - 175, 70, WHITE, a, glow=accent)
+        icon(c, sc["icon"], cx, cy - 185, 66, WHITE, a, glow=accent)
     val = str(sc["value"])
     shown = _count_value(val, appear(t, t0 + 0.1, 1.2, ease_out_expo_safe)) if sc.get("count", True) else val
-    size = fit_size(val, "display", sc.get("size", 230), 820)
+    size = fit_size(val, "display", sc.get("size", 220), 2 * R - 90)
     sc_ = 0.85 + 0.15 * ease_out_back(prog(t, t0, 0.6))
     c.save()
     c.translate(cx, cy + cap_h("display", size) / 2 - 10)
@@ -346,16 +348,16 @@ def s_stat(c, ctx, sc, t):
     c.restore()
     if sc.get("label"):
         al = appear(t, t0 + 0.45, 0.5)
-        for i, ln in enumerate(wrap(sc["label"], "xbold", 36, 470)):
-            draw_text(c, ln.upper(), cx, cy + 145 + i * 44, "xbold", 36, th["a3"], al, align="center",
+        for i, ln in enumerate(wrap(sc["label"].upper(), "xbold", 32, 2 * R - 190)):
+            draw_text(c, ln, cx, cy + 150 + i * 40, "xbold", 32, th["a3"], al, align="center",
                       tracking=0.04, shadow=(0, 3, 8, 0.7))
     if sc.get("sub"):
         asb = appear(t, cue(sc, sc.get("sub_at", 1)), 0.5)
-        lines = wrap(sc["sub"], "semi", 36, 1300)
+        lines = wrap(sc["sub"], "semi", 34, 1300)
         for i, ln in enumerate(lines):
-            draw_text(c, ln, cx, 845 + i * 44 - (len(lines) - 1) * 44, "semi", 36, WHITE, asb, align="center",
+            draw_text(c, ln, cx, 878 + i * 42 - (len(lines) - 1) * 42, "semi", 34, WHITE, asb, align="center",
                       shadow=(0, 3, 8, 0.9))
-    source_tag(c, ctx, sc, t, y=120)
+    source_tag(c, ctx, sc, t, y=805)
 
 
 def ease_out_expo_safe(x):
@@ -594,7 +596,10 @@ def s_map(c, ctx, sc, t):
         rc = rg.get("color", pal[active % len(pal)])
         ta = times[active]
         ac = appear(t, ta, 0.45)
-        x, y, w_, h_ = 1060, 200, 720, 570
+        tlines = wrap(rg.get("text", ""), "semi", 34, 720 - 80)
+        x, w_ = 1060, 720
+        h_ = max(380, 270 + len(tlines) * 46 + 40)
+        y = 140 + (640 - h_) / 2
         panel(c, x + (1 - ac) * 40, y, w_, h_, rc, ac)
         x += (1 - ac) * 40
         icon_badge(c, rg.get("icon", "map-pin"), x + 80, y + 90, 46, rc, ac)
@@ -690,8 +695,11 @@ def s_timeline(c, ctx, sc, t):
     c.drawLine(LEFT - 40, ly, RIGHT + 40, ly, paint("#FFFFFF", 0.18 * a_line, stroke=4))
     prog_x = x0 + active * spacing * 1.0
     c.drawLine(LEFT - 40, ly, min(RIGHT + 40, prog_x), ly, paint(th["a1"], 0.9 * a_line, stroke=5))
+    scrolling = total_w > view_w
     c.save()
     c.clipRect(skia.Rect.MakeLTRB(LEFT - 60, 280, RIGHT + 60, BOTTOM + 10))
+    if scrolling:
+        c.saveLayer(None, None)
     for i, e in enumerate(ev):
         ai = appear(t, times[i], 0.5)
         if ai <= 0.003:
@@ -709,12 +717,14 @@ def s_timeline(c, ctx, sc, t):
         for j, ln in enumerate(tl[:5]):
             draw_text(c, ln, x, ly + 84 + j * 42 + (1 - ai) * 20, "semi", 33, WHITE if is_act else MUTED, ai,
                       align="center")
+    if scrolling:
+        # desvanecido de los bordes: máscara de alfa sobre la capa de eventos
+        mp = skia.Paint(Shader=lin_grad(LEFT - 60, 0, RIGHT + 60, 0, ["#000000"] * 4, [0, 0.1, 0.9, 1],
+                                        alphas=[0.0, 1.0, 1.0, 0.0]))
+        mp.setBlendMode(skia.BlendMode.kDstIn)
+        c.drawRect(skia.Rect.MakeLTRB(LEFT - 60, 280, RIGHT + 60, BOTTOM + 10), mp)
+        c.restore()
     c.restore()
-    # desvanecido en los bordes
-    for x_, d in ((LEFT - 60, 1), (RIGHT + 60, -1)):
-        c.drawRect(skia.Rect.MakeLTRB(min(x_, x_ + d * 160), 280, max(x_, x_ + d * 160), BOTTOM + 10),
-                   skia.Paint(Shader=lin_grad(x_, 0, x_ + d * 160, 0, [ctx.th["dark"], ctx.th["dark"]],
-                                              alphas=[0.95, 0.0])))
     source_tag(c, ctx, sc, t)
 
 
